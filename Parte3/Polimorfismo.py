@@ -1,16 +1,8 @@
-class Gato():
-    def sonido(self):
-        return "Miau"
-    
-class Perro():
-    def sonido(self):
-        return "Guau"
+def recorrer(elemento):
+    for item in elemento:
+        print(f"El elemento actual es: {item}")
 
-def hacer_sonido(animal):
-    print(animal.sonido())
+lista = {1,2,3,4}
+lista2 = "maquina"
 
-gato = Gato()
-perro = Perro()
-
-hacer_sonido(perro)
-
+recorrer(lista)
