@@ -31,6 +31,5 @@ print(repre)
 resultado = eval(repre)
 print(resultado.trabajo)
 
-
 resultado1 = leandro + pepe + maria
 print(resultado1.trabajo)
